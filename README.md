@@ -1,6 +1,6 @@
 # Cat, Dog, Bird and Unknown Image Classifier
 
-This project is a standalone open-set image classification system.
+This project is a standalone Image classification system.
 
 The classifier is designed to classify images into four classes:
 
