@@ -76,7 +76,7 @@ function AdvancedDetails({ result, imageBlob }: AdvancedDetailsProps) {
 
             <section className="advanced-block">
               <h3>Input Preprocessing</h3>
-              <p>The image is decoded locally, resized using high-quality browser resampling to fit within 224 × 224 while preserving its aspect ratio, centred with black padding, converted to RGB, and kept in the [0,255] pixel range. EfficientNetV2 preprocessing is included inside the model.</p>
+              <p>Uploaded files and URL images follow the same preprocessing pipeline. Each image is decoded locally, resized with high-quality browser resampling while preserving its aspect ratio, and centred on a black 224 × 224 RGB canvas so no image content is cropped. Pixel values remain in the [0,255] range, and EfficientNetV2 preprocessing is performed inside the model.</p>
             </section>
 
             <section className="advanced-block">
