@@ -1,0 +1,222 @@
+E0000 00:00:1784478075.649448    3806 meta_optimizer.cc:967] layout failed: INVALID_ARGUMENT: Size of values 0 does not match size of permutation 4 @ fanin shape inStatefulPartitionedCall/cat_dog_bird_unknown_classifier_1/efficientnetv2-b0_1/block2b_drop_1/stateless_dropout/SelectV2-2-TransposeNHWCToNCHW-LayoutOptimizer
+Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 737 extraneous bytes before marker 0xed
+Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 240 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: premature end of data segment
+Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: premature end of data segment
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Warning: unknown JFIF revision number 0.00
+Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 737 extraneous bytes before marker 0xed
+Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 240 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: premature end of data segment
+Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: premature end of data segment
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Warning: unknown JFIF revision number 0.00
+Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 737 extraneous bytes before marker 0xed
+Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 240 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: premature end of data segment
+Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: premature end of data segment
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Warning: unknown JFIF revision number 0.00
+Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 737 extraneous bytes before marker 0xed
+Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 240 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: premature end of data segment
+Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: premature end of data segment
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Warning: unknown JFIF revision number 0.00
+Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 737 extraneous bytes before marker 0xed
+Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 240 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: premature end of data segment
+Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: premature end of data segment
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Warning: unknown JFIF revision number 0.00
+Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 737 extraneous bytes before marker 0xed
+Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 240 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: premature end of data segment
+Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: premature end of data segment
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Warning: unknown JFIF revision number 0.00
+Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 737 extraneous bytes before marker 0xed
+Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 240 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: premature end of data segment
+Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: premature end of data segment
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Warning: unknown JFIF revision number 0.00
+Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 737 extraneous bytes before marker 0xed
+Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 240 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: premature end of data segment
+Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: premature end of data segment
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Warning: unknown JFIF revision number 0.00
+Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 737 extraneous bytes before marker 0xed
+Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 240 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: premature end of data segment
+Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: premature end of data segment
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Warning: unknown JFIF revision number 0.00
+Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 737 extraneous bytes before marker 0xed
+Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 240 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: premature end of data segment
+Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: premature end of data segment
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Warning: unknown JFIF revision number 0.00
+Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 737 extraneous bytes before marker 0xed
+Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 240 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: premature end of data segment
+Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: premature end of data segment
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Warning: unknown JFIF revision number 0.00
+Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 737 extraneous bytes before marker 0xed
+Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 240 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: premature end of data segment
+Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: premature end of data segment
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Warning: unknown JFIF revision number 0.00
+Corrupt JPEG data: 239 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 737 extraneous bytes before marker 0xed
+Corrupt JPEG data: 128 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 396 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 65 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 240 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 99 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 252 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 162 extraneous bytes before marker 0xd9
+Corrupt JPEG data: premature end of data segment
+Corrupt JPEG data: 228 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1403 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 1153 extraneous bytes before marker 0xd9
+Corrupt JPEG data: premature end of data segment
+Corrupt JPEG data: 2226 extraneous bytes before marker 0xd9
+Corrupt JPEG data: 214 extraneous bytes before marker 0xd9
+Warning: unknown JFIF revision number 0.00

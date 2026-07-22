@@ -1,0 +1,69 @@
+{
+    "model": {
+        "name": "cat_dog_bird_unknown_classifier",
+        "architecture": "EfficientNetV2B0",
+        "input_shape": [
+            224,
+            224,
+            3
+        ],
+        "class_names": [
+            "Cat",
+            "Dog",
+            "Bird",
+            "Unknown"
+        ],
+        "number_of_classes": 4,
+        "dropout_rate": 0.3,
+        "total_parameters": 5924436,
+        "trainable_parameters": 1712916,
+        "non_trainable_parameters": 4211520
+    },
+    "preprocessing": {
+        "colour_mode": "RGB",
+        "resize_method": "Bilinear aspect-ratio-preserving resize with padding",
+        "input_size": [
+            224,
+            224
+        ],
+        "input_pixel_range": "[0,255]",
+        "efficientnet_preprocessing": "Included inside the model"
+    },
+    "prediction": {
+        "decision_rule": "Highest predicted probability (argmax)",
+        "class_order": [
+            "Cat",
+            "Dog",
+            "Bird",
+            "Unknown"
+        ],
+        "unknown": "A directly trained fourth class"
+    },
+    "training": {
+        "random_seed": 42,
+        "mixed_precision_policy": "float32",
+        "batch_size": 32,
+        "optimizer": "Adam",
+        "loss": "Categorical crossentropy",
+        "gradient_clipnorm": 1.0,
+        "checkpoint_metric": "Validation macro F1",
+        "stage_1": {
+            "backbone": "Frozen",
+            "learning_rate": 0.001,
+            "maximum_epochs": 12,
+            "early_stopping_patience": 3
+        },
+        "stage_2": {
+            "final_backbone_layers_considered": 40,
+            "batch_normalization": "Frozen",
+            "learning_rate": 1e-05,
+            "maximum_epochs": 15,
+            "early_stopping_patience": 4
+        }
+    },
+    "files": {
+        "source_checkpoint": "Model Building/Models/Development/best_fine_tuned.keras",
+        "final_model": "Model Building/Models/Final/cat_dog_bird_unknown.keras",
+        "training_history_plot": "Model Building/Training Results/training_history.png"
+    }
+}

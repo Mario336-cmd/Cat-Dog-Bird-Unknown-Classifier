@@ -1,0 +1,14 @@
+Metric,Value
+images_evaluated,10769.0
+accuracy,0.95097037793667
+balanced_accuracy,0.950423844909951
+macro_precision,0.9558951276990072
+macro_recall,0.950423844909951
+macro_f1,0.951281993664868
+weighted_precision,0.9559294510102649
+weighted_recall,0.95097037793667
+weighted_f1,0.9515920186752895
+mean_prediction_confidence,0.9765301942825317
+evaluation_seconds,208.158373192
+images_per_second,51.73464720569731
+average_milliseconds_per_image,19.3294059979571

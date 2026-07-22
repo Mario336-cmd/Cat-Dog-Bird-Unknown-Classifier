@@ -1,0 +1,14 @@
+{
+  "class_names": [
+    "Cat",
+    "Dog",
+    "Bird",
+    "Unknown"
+  ],
+  "class_order": {
+    "Cat": 0,
+    "Dog": 1,
+    "Bird": 2,
+    "Unknown": 3
+  }
+}

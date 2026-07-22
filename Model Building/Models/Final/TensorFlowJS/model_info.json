@@ -1,0 +1,81 @@
+{
+  "model_name": "Cat, Dog, Bird and Unknown EfficientNetV2B0",
+  "keras_source": "Model Building/Models/Final/cat_dog_bird_unknown.keras",
+  "tensorflowjs_format": "GraphModel",
+  "class_names": [
+    "Cat",
+    "Dog",
+    "Bird",
+    "Unknown"
+  ],
+  "input_shape": [
+    224,
+    224,
+    3
+  ],
+  "outputs": {
+    "probabilities": [
+      null,
+      4
+    ],
+    "features": [
+      null,
+      7,
+      7,
+      1280
+    ]
+  },
+  "preprocessing": {
+    "colour_mode": "RGB",
+    "resize": "Aspect-ratio-preserving bilinear resize with padding",
+    "pixel_range": "[0,255]",
+    "external_rescaling": false,
+    "efficientnet_preprocessing_inside_graph": true
+  },
+  "decision_rule": "Highest probability",
+  "gradcam": {
+    "layer": "top_activation",
+    "feature_shape": [
+      7,
+      7,
+      1280
+    ],
+    "score": "Softmax probability",
+    "weights_file": "gradcam_weights.json",
+    "method": "standard_mean"
+  },
+  "deployment": {
+    "selected_configuration": "Graph resize + WebGPU + standard Grad-CAM",
+    "resize_method": "Graph resize",
+    "primary_backend": "webgpu",
+    "gradcam_method": "standard_mean",
+    "backend_fallback_order": [
+      "webgpu",
+      "webgl",
+      "wasm",
+      "cpu"
+    ],
+    "selection_reason": "Graph resize and standard Grad-CAM gave the strongest agreement with Keras, and WebGPU was the fastest chosen backend.",
+    "wasm_backend_is_patched": true
+  },
+  "benchmark": {
+    "seed": 42,
+    "images_per_class": 15,
+    "total_images": 60,
+    "tested_configurations": 15,
+    "prediction_matches": 60,
+    "successful_runs": 60,
+    "failed_runs": 0,
+    "mean_max_probability_difference": 0.012165428229438172,
+    "lowest_heatmap_correlation": 0.8093261869379197,
+    "mean_heatmap_correlation": 0.9729779183375361,
+    "median_total_ms": 33.45000000298023,
+    "p95_total_ms": 47.20499999970197,
+    "worst_gradcam_sample": "unknown_09",
+    "results": "Model Building/Browser Test/results.csv",
+    "comparison": "Model Building/Browser Test/gradcam_comparison.png"
+  },
+  "tensorflow_version": "2.21.0",
+  "tensorflowjs_version": "4.22.0",
+  "model_file": "model.json"
+}

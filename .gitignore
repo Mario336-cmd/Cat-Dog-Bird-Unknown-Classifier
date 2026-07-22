@@ -1,0 +1,8 @@
+/Model Building/Datasets/
+/Web App/node_modules/
+/Web App/dist/
+/Web App/*.tsbuildinfo
+/Web App/.env
+/Web App/.env.*
+!/Web App/.env.example
+**/.ipynb_checkpoints/
