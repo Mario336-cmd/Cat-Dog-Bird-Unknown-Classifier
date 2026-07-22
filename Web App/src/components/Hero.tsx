@@ -96,14 +96,14 @@ function Hero({ images }: HeroProps) {
             trained to classify images depicting <strong>domestic cats, domestic dogs, or birds</strong>, while
             identifying images outside those categories as <strong>Other</strong>. Users can
             upload an image from their device or provide a publicly accessible image link, and the model
-            runs locally in their browser to return a prediction and class probability in real time, with
+            then returns a prediction and class probability in real time, with
             an optional Grad-CAM visualization highlighting the image regions that contributed most to
-            the prediction.
+            the prediction in the Advanced Details section at the bottom.
           </p>
           <p className="hero-copy">
             <strong>Note:</strong> Unlike the Cat and Dog categories, which focus on domesticated animals,
             the Bird category includes many species, including wild birds, with a wider range of appearances. For now, penguins
-            and large flightless birds are excluded and fall outside the classifier&apos;s intended scope.
+            and large flightless birds are excluded and fall outside the classifier&apos;s intended Bird scope.
           </p>
         </div>
 
