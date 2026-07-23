@@ -129,6 +129,7 @@ function FeedbackPanel({ result, imageBlob }: FeedbackPanelProps) {
         {step === 'consent' ? (
           <div className="feedback-step consent-block" key="consent">
             <button type="button" className="feedback-back" onClick={goBack}>Back</button>
+            <p>Review the consent statement below, then download the feedback ZIP. You&apos;ll upload the ZIP through the feedback form in the next step.</p>
             <label className="consent-label">
               <input type="checkbox" checked={consent} onChange={(event) => {
                 setConsent(event.target.checked)
@@ -137,7 +138,7 @@ function FeedbackPanel({ result, imageBlob }: FeedbackPanelProps) {
               <span>I confirm I have the right to share this image and agree that it may be used to review and improve the classifier.</span>
             </label>
             <button type="button" className="primary-button feedback-download" disabled={!canPrepare || zipStatus === 'generating'} onClick={() => void prepareZip()}>
-              {zipStatus === 'generating' ? 'Preparing ZIP…' : 'Download Feedback ZIP'}
+              {zipStatus === 'generating' ? 'Preparing ZIP…' : 'Download ZIP and Continue'}
             </button>
             {zipStatus === 'error' ? <p className="inline-error" role="alert">The feedback ZIP could not be prepared. Please try again.</p> : null}
           </div>
@@ -147,7 +148,7 @@ function FeedbackPanel({ result, imageBlob }: FeedbackPanelProps) {
           <div className="feedback-step upload-feedback-block" key="upload">
             <button type="button" className="feedback-back" onClick={goBack}>Back</button>
             <h3>Upload Your Feedback</h3>
-            <p>Please upload the downloaded feedback ZIP using the form below. The form opens in a new tab.</p>
+            <p>Your feedback has not been submitted yet. Click the button to open the feedback form, then upload the downloaded ZIP to complete your submission.</p>
             <a className="form-link" href={FEEDBACK_FORM_URL} target="_blank" rel="noreferrer">Open Feedback Form</a>
           </div>
         ) : null}

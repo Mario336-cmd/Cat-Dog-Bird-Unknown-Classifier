@@ -163,8 +163,7 @@ function App() {
   const canClassify = previewReady && status !== 'classifying' && modelStatus.phase === 'ready'
   const confidence = result ? result.probabilities[result.predictedIndex] : 0
   const confidenceText = `${(confidence * 100).toFixed(2)}%`
-  const displayLabel = result?.label === 'Unknown' ? 'Not a Cat, Dog or Bird' : result?.label
-  const helperText = result?.label === 'Unknown' ? 'Please try an image of a cat, dog or bird.' : null
+  const displayLabel = result?.label === 'Unknown' ? 'Other' : result?.label
   const resultTone = result ? `result-${result.label.toLowerCase()}` : ''
   const classifyButtonLabel = status === 'classifying'
     ? 'Classifying...'
@@ -188,17 +187,27 @@ function App() {
           <article className="step-card">
             <p className="step-index">01</p>
             <h3>Add Your Image</h3>
-            <p>Upload a photo from your device or paste an image URL.</p>
+            <p>Upload an image from your device or provide a public image URL.</p>
           </article>
           <article className="step-card">
             <p className="step-index">02</p>
             <h3>Check the Preview</h3>
-            <p>If the image appears, it is ready to classify.</p>
+            <p>Once the image fully loads in the preview, it is ready to classify.</p>
           </article>
           <article className="step-card">
             <p className="step-index">03</p>
             <h3>Get the Result</h3>
-            <p>Click Classify to see whether it is a cat, dog or bird.</p>
+            <p>Click Classify to view the predicted class and probability.</p>
+          </article>
+          <article className="step-card">
+            <p className="step-index">04</p>
+            <h3>Provide Feedback</h3>
+            <p>Below the prediction result, choose Yes, follow the prompts, then upload the generated ZIP through the linked form.</p>
+          </article>
+          <article className="step-card">
+            <p className="step-index">05</p>
+            <h3>Explore Advanced Details</h3>
+            <p>View all class probabilities, browser performance information, input processing, and the optional Grad-CAM visualization.</p>
           </article>
         </div>
       </section>
@@ -260,7 +269,6 @@ function App() {
             <section className={`result-shell ${resultTone}`} aria-live="polite">
               <p className="result-heading">Prediction Results</p>
               <p className="result-value">{displayLabel}</p>
-              {helperText ? <p className="result-meta">{helperText}</p> : null}
               <div className="confidence-row">
                 <div className="confidence-meta">
                   <span>Model Confidence</span>

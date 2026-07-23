@@ -92,18 +92,14 @@ function Hero({ images }: HeroProps) {
           </div>
           <h1>Cat, Dog and Bird Image Classifier</h1>
           <p className="hero-copy">
-            This website is an interactive showcase of a convolutional neural network (CNN) model
-            trained to classify images depicting <strong>domestic cats, domestic dogs, or birds</strong>, while
-            identifying images outside those categories as <strong>Other</strong>. Users can
-            upload an image from their device or provide a publicly accessible image link, and the model
-            then returns a prediction and class probability in real time, with
-            an optional Grad-CAM visualization highlighting the image regions that contributed most to
-            the prediction in the Advanced Details section at the bottom.
+            This interactive convolutional neural network (CNN) demo classifies images depicting
+            <strong> domestic cats, domestic dogs, birds, or Other</strong>. Upload an image or provide
+            a publicly accessible image URL to receive a real-time prediction and class probabilities,
+            with an optional Grad-CAM explanation in Advanced Details.
           </p>
           <p className="hero-copy">
-            <strong>Note:</strong> Unlike the Cat and Dog categories, which focus on domesticated animals,
-            the Bird category includes many species, including wild birds, with a wider range of appearances. For now, penguins
-            and large flightless birds are excluded and fall outside the classifier&apos;s intended Bird scope.
+            <strong>Note:</strong> The Bird category includes varied species, including wild birds.
+            Penguins and large flightless birds are currently outside the classifier&apos;s intended scope.
           </p>
         </div>
 
